@@ -1,0 +1,38 @@
+
+.homePage {
+    height: 100%;
+}
+
+.homePage :global(.ant-layout-sider){
+    box-shadow: 5px 0 8px rgba(0,0,0,.3);
+    width: 220px !important;
+}
+.homePage :global(.ant-layout-sider-collapsed .anticon){
+    font-size: 16px;
+    margin-left: 8px;
+}
+.homePage :global(.ant-layout-sider-collapsed .nav-text){
+    display: none;
+}
+.ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after{
+    display: none;
+}
+
+.header {
+    padding: 0;
+    z-index: 999;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+
+.content {
+    padding: 24px;
+    background-color: #ececec;
+}
+
+.footer {
+    padding: 15px 50px;
+    text-align: center;
+    background-color: #fafafa;
+}

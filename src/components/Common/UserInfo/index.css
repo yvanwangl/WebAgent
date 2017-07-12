@@ -1,0 +1,63 @@
+.userInfo {
+    width: 300px;
+    padding: 22px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    position: absolute;
+    top: -400px;
+    right: 10px;
+    z-index: 90;
+    background: #fff;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.showUserInfo {
+    transform: translate(0, 466px);
+    opacity: 1;
+}
+
+.currentUser {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.currentTime {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.currentTime span {
+    display: inline-block;
+    width: 20px;
+}
+.infoList {
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid #DCE0E2;
+    border-bottom: 1px solid #DCE0E2;
+}
+.infoItem {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+}
+.infoName {
+    display: inline-block;
+    width: 44%;
+}
+.infoValue {
+    display: inline-block;
+    width:50%;
+}
+.button {
+    height: 26px;
+    line-height: 26px;
+}
+.button a,
+.button span{
+    font-size: 14px;
+    color: #108ee9;
+    cursor: pointer;
+}

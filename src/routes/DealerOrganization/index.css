@@ -1,0 +1,10 @@
+.organizationTree {
+    display: inline-block;
+    width: 30%;
+    min-width: 300px;
+    vertical-align: top;
+}
+
+.organizationInfo {
+    padding: 20px 30px;
+}

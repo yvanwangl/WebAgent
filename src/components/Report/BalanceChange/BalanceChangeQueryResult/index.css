@@ -1,0 +1,17 @@
+.customerServiceSearchForm {
+    margin-bottom: 20px;
+}
+.customerServiceSearchForm :global(.ant-form-item-label){
+    text-align: left;
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formColumn {
+    display: inline-block;
+    width: 50%;
+}

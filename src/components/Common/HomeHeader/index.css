@@ -1,0 +1,28 @@
+.homeHeader {
+/*    height: 50px;
+    line-height: 50px;*/
+    position: relative;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+    background-color: #fafafa;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+}
+.userWrapper {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+.userWrapper>span {
+    margin-right: 16px;
+    font-size: 14px;
+}
+.infoItem {
+    display: inline-block;
+    margin-right: 14px;
+}

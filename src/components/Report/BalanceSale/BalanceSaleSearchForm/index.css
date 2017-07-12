@@ -1,0 +1,24 @@
+.balanceSaleSearchForm {
+    margin-bottom: 20px;
+}
+
+.balanceSaleSearchForm :global(.ant-form-item-label) {
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .balanceSaleSearchForm :global(.ant-col-12) {
+        width: 100%;
+    }
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formColumn {
+    display: inline-block;
+    width: 50%;
+}

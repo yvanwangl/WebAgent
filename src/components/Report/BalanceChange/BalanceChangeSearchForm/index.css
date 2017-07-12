@@ -1,0 +1,12 @@
+.balanceChangeSearchForm {
+    margin-bottom: 20px;
+}
+.balanceChangeSearchForm :global(.ant-form-item-label){
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .balanceChangeSearchForm :global(.ant-col-12) {
+        width: 100%;
+    }
+}

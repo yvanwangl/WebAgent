@@ -1,0 +1,7 @@
+.breadcrumbList {
+    margin-bottom: 14px;
+}
+
+.breadcrumbList :global(.ant-breadcrumb) {
+    font-size: 14px;
+}

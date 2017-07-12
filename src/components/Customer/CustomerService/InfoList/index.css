@@ -1,0 +1,25 @@
+.infoList {
+    margin-bottom: 20px;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.infoList li {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+}
+.infoList li:nth-child(2n+1) {
+    border-bottom: 1px solid #e4e4e4;
+}
+.infoList li:nth-child(2n) {
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.infoList li span {
+    display: inline-block;
+}
+.infoName {
+    width: 120px;
+}

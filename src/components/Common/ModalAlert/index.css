@@ -1,0 +1,54 @@
+.modalAlert :global(.ant-modal-body) {
+    padding: 30px 40px;
+}
+
+.iconStyle {
+    font-size: 24px;
+    margin-right: 16px;
+    padding: 0 1px;
+    float: left;
+}
+
+.successIcon {
+    composes: iconStyle;
+    color: #00a854;
+}
+
+.infoIcon {
+    composes: iconStyle;
+    color: #108ee9;
+}
+
+.errorIcon {
+    composes: iconStyle;
+    color: #f04134;
+}
+
+.warningIcon {
+    composes: iconStyle;
+    color: #ffbf00;
+}
+
+.modalAlert .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modalAlert .title>span {
+    color: rgba(0,0,0,.65);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.modalAlert .content {
+    margin-left: 42px;
+    font-size: 16px;
+    color: rgba(0,0,0,.65);
+    margin-top: 8px;
+}
+
+.modalAlert button {
+    margin-top: 16px;
+    float: right;
+}

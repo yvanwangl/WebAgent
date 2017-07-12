@@ -1,0 +1,12 @@
+.activationSubscriberSearchForm {
+    margin-bottom: 20px;
+}
+.activationSubscriberSearchForm :global(.ant-form-item-label){
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .activationSubscriberSearchForm :global(.ant-col-12) {
+        width: 100%;
+    }
+}

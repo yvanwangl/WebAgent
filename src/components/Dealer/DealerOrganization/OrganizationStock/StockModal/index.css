@@ -1,0 +1,10 @@
+.stockModal :global(.ant-modal) {
+    width: 680px !important;
+}
+.currentOrganization {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+

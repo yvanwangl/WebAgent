@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development roadhog server",
+    "build": "cross-env NODE_ENV=production roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit-bakup": "npm run lint",
+    "trans": "atool-l10n",
+    "test": "atool-test-mocha ./src/**/*-test.js"
+  },
+  "engines": {
+    "install-node": "6.9.2"
+  },
+  "dependencies": {
+    "antd": "^2.9.1",
+    "atool-l10n": "^0.2.1",
+    "atool-test-mocha": "^0.1.6",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-intl": "^0.1.1",
+    "babel-runtime": "^6.9.2",
+    "classnames": "^2.2.5",
+    "cross-env": "^5.0.1",
+    "dva": "^1.2.1",
+    "dva-loading": "^0.2.0",
+    "jquery": "^3.2.1",
+    "numeral": "^2.0.6",
+    "qs": "^6.4.0",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-intl": "^2.2.3",
+    "roadhog": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "expect": "^1.20.2",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.3.2"
+  }
+}

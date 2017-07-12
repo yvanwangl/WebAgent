@@ -1,0 +1,7 @@
+.errorChangeNumber {
+    outline-color: red;
+}
+
+.returnModal :global(.ant-modal) {
+    width: 680px !important;
+}
